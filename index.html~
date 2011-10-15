@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title> Charles Desouza's Website</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"> 
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/easing.js" ></script>
+<script type="text/javascript">
+$('#myimage').mouseenter(function() {
+    $(this).effect('bounce',500);
+});
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="heading">
+			Charles Desouza
+		</div>
+		<div id="about">
+			I am a second year Systems Design Engineering student in the University of Waterloo, Canada. 
+			I am interested in Entrepreneurship, Artificial Intelligence, Machine Learning and Cloud Computing.
+			I enjoy working out, running, dragon boat racing and parkour. 
+		</div>
+		<div id="icons">
+			<img src="images/linkedin-icon.png" style="margin-right:25px; position:absolute;" id="myimage" />
+			<img src="images/Twitter-icon.png"  style="margin-right:25px; margin-left:25px;"/>
+			<img src="images/git_icon.png"  style="margin-right:25px; margin-left:25px;"/>
+			<img src="images/Resume-icon.png"  style="margin-right:25px; margin-left:25px;"/>
+			<img src="images/contact.png"  style="margin-left:25px;"/>
+		</div>
+	</div>
+</body>
+</html>
